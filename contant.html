@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- adding form to this website -->
+    <h1>Contact me</h1>
+    <form action="mailto:timmytems680@gmail.com">
+      <label for="fullname">fullname</label>
+      <input
+        type="text"
+        placeholder="e.g clark kent"
+        name="Typeshi"
+        id="joblaq"
+      />
+      <br>
+      <label for="Email">email</label>
+      <input
+        type="email"
+        placeholder="e.g timmytems680@gmail.com"
+        name="email"
+        id="email"
+        required
+      />
+      <br>
+      <label for="message">message</label>
+      <!-- textarea is what you use for the message part because it allows multi-line text input field -->
+      <!-- row and cols are styles you add to change the size of the message box -->
+       <br>
+      <textarea
+        name="message"
+        placeholder="say your mind bitch"
+        id="text me"
+        rows="30"
+        cols="40"
+        required
+      ></textarea>
+      <br>
+      <input type="button" value="click me"/>
+      <br>
+      <input type="number" placeholder="number" min="1" max="50"/>
+      <br>
+      <input type="password" minlength="10" required/>
+      
+      <br>
+      <input type="date"/>
+      <input type="datetime-local"/>
+      <br>
+      <input type="radio" name="gender" value="male"/>
+      <label for="gender">male</label>
+      <input type="radio" name="gender" value="female"/>
+      <label for="gender">female</label>
+      <br>
+      <input type="checkbox"/> i agree to f you
+      <br>
+      <input type="color"/>
+      <br>
+      <input type="file"/>
+      <br>
+      <input type="range">
+      <br>
+      <input type="url"/>
+      <br>
+      <select name="country" id="country">
+        <option disabled selected>select country</option>
+        <option value="america">America 🇺🇸 </option>
+        <option value="canada">canada 🇨🇦 </option>
+        <option value="nigeria">Nigeria 🇳🇬</option>
+      </select>
+
+      <button type="submit" disabled>submit</button>
+      <button type="reset">reset</button>
+    </form>
+  </body>
+</html>
